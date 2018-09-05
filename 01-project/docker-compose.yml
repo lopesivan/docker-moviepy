@@ -1,0 +1,11 @@
+version: "3.1"
+services:
+
+  moviepy:
+    build:
+      context: .
+    image: lopesivan/moviepy:1.0
+    container_name: moviepy
+    command: python app/script.py
+    volumes:
+       - ${PWD}:/code
