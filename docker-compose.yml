@@ -1,0 +1,10 @@
+version: "3.1"
+services:
+
+  moviepy:
+    image: dkarchmervue/moviepy:latest
+    container_name: moviepy
+    command: bash
+    volumes:
+       - ${PWD}:/work
+
