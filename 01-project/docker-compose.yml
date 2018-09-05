@@ -7,5 +7,6 @@ services:
     image: lopesivan/moviepy:1.0
     container_name: moviepy
     command: python app/script.py
+    network_mode: "none"
     volumes:
        - ${PWD}:/code
