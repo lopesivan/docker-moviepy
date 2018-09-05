@@ -1,0 +1,3 @@
+# local
+#git clone file://${HOME}/git/docker-moviepy.git
+#git remote add origin file://${HOME}/git/docker-moviepy.git
